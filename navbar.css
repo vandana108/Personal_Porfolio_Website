@@ -1,0 +1,48 @@
+.header {
+  padding: 20px;
+  width: 100vw;
+  background-color: white; 
+}
+.logo{
+  height: 60px;
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-items-center{
+  align-items: center;
+
+} 
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.container{
+  margin: auto;
+}
+.header .nav ul{
+  display: flex;
+  gap: 20px;
+}
+
+.header .nav ul li a{
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  display: block;
+  font-size: var(--default-font-size);
+  padding: 10px;
+}
+.header .nav ul li a.active,
+.header .nav ul li a:hover{
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  
+}
+
+.nav-toggler {
+  display: none;
+
+}

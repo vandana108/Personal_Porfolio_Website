@@ -1,0 +1,39 @@
+/* @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">); */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+  --primary-color:#f1c40f;
+  --secondary-color:#f1c40f;
+  --text-color:#333;
+  --text-color-button: white;
+
+  --background-color:#fff;
+  --default-font-size:16px;
+}
+
+*{
+  font-family:  "Montserrat Alternates", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+}
+button{
+  background-color: var(--primary-color);
+  color: var(--text-color-button);
+}
+
+/*Todo: later on add more thing here */
+
+ul{
+  list-style: none;
+}
